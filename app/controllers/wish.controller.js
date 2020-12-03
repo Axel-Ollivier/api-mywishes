@@ -12,7 +12,7 @@ exports.create = (req, res) => {
     // Create a wish
     const wish = new Wish({
         title: req.body.title,
-        author: req.body.author,
+        author: req.body.author
     });
 
     // Save wish in the database

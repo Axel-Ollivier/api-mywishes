@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: ["http://localhost:3000", "http://wishlist.axelollivier.ovh"]
+  origin: ["http://localhost:3000", "http://mywishes.axelollivier.ovh"]
 };
 
 app.use(cors(corsOptions));
